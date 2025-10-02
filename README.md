@@ -4,4 +4,4 @@ You can drop these files into your waybar config file(expect for readme and the 
 
 If cava doesn't work then idk why, I stole that cava.sh from somewhere else, it works on my machine.
 
-![image alt](https://github.com/TathaagatPal/Waybar-Rice-I-Made/blob/main/20250929_19h29m11s_grim.png)
+![image alt](https://github.com/TathaagatPal/Fastfetch-Rice-I-made/blob/main/20250929_19h29m11s_grim.png)
