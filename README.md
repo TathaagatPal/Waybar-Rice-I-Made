@@ -1,6 +1,6 @@
 # Waybar-Rice-I-Made
 Code for a waybar rice i made in arch linux.
-You can drop these files into your waybar config file(expect for readme and the screenshot of course).
+If you wanna steal this then just to let you know my name is in the logo background url link
 
 If cava doesn't work then idk why, I stole that cava.sh from somewhere else, it works on my machine.
 
