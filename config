@@ -1,0 +1,48 @@
+	{
+"layer":"top",
+"position":"top",
+"height":30,
+"modules-left":["custom/thunar","custom/firefox","custom/kitty","custom/cava","hyprland/workspaces"],
+"modules-center":["clock"],
+"modules-right":["pulseaudio","network","disk","battery","tray"],
+"clock":{
+"format":"{:%a, %b %d %Y %I:%M:%S %p}"
+},
+"disk":{
+"format":"{used}/{total}",
+"interval":10,
+"path":"/"
+},
+"custom/thunar":{
+"format":" ",
+"on-click":"thunar",
+"tooltip":"Thunar"
+},
+"custom/firefox":{
+"format":" ",
+"on-click":"firefox",
+"tooltip":"Firefox"
+},
+"custom/kitty":{
+"format":" ",
+"on-click":"kitty",
+"tooltip":"Kitty"
+},
+"custom/cava":{
+"format":"{}",
+"exec":"~/.config/waybar/cava.sh"
+},
+"pulseaudio":{
+"format":"{volume}%"
+},
+"network":{
+"format-wifi":"Wifi:{essid}"
+},
+"format-ethernet":"{ifname}:{ipaddr}",
+"format-disconnected":"{essid} offline",
+},
+"battery":{
+"format":"{capacity}%"
+}
+}
+
